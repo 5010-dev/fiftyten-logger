@@ -15,11 +15,11 @@ A lightweight and flexible logging utility for TypeScript/JavaScript application
 ## Installation
 
 ```bash
-npm install @indspace/logger
+npm install @fiftyten/logger
 # or
-yarn add @indspace/logger
+yarn add @fiftyten/logger
 # or
-pnpm add @indspace/logger
+pnpm add @fiftyten/logger
 ```
 
 ## Usage
@@ -27,7 +27,7 @@ pnpm add @indspace/logger
 ### Basic Usage
 
 ```typescript
-import { createLogger } from '@indspace/logger'
+import { createLogger } from '@fiftyten/logger'
 
 // Create logger with namespace
 const logger = createLogger('MyApp')
